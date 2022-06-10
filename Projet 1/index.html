@@ -1,0 +1,407 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Réparo</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <style>
+    section{
+      padding: 60px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- navbar -->
+  <nav class="navbar navbar-light bg-white shadow navbar-expand-md pt-1 pb-1 sticky-top">
+    <div class="container-xxl">
+      <!-- Titre (logo) -->
+      <a class="navbar-brand" href="#intro">
+        <span class="text-secondary fw-bold">
+          <i class="bi bi-music-note-beamed"></i>
+          Réparo - Réparation d'instruments de musique
+        </span>
+      </a>
+      <!-- Bouton menu mobile -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- liens navbar -->
+      <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-success" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success" href="#experts">Experts</a>
+          </li>
+          <li class="nav-item d-md-none">
+            <a class="nav-link text-success" href="#reservation">Réserver</a>
+          </li>
+          <li class="nav-item ms-2 d-none d-md-inline">
+            <a class="btn btn-success" href="#reservation">Réserver</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mission et info de l'entreprise -->
+  <section id="intro">
+    <div class="container-lg">
+      <div class="row g-4 justify-content-center align-items-center">
+        <div class="col-md-4 text-center d-none d-md-block">
+            <div class="display-5">123, rue de la Fiction</div>
+            <div class="display-5 pb-5">819 123-4567</div>
+          <div class="border border-dark mx-5 px-5 pt-2">
+            <h3 class="display-6">Heures d'ouvertures </h3>
+              <h4 class="text-start mx-4 px-2">
+                Lun: 8h - 16h <br>
+                Mar: 8h - 16h <br>
+                Mer: 8h - 16h <br>
+                Jeu: 8h - 18h <br>
+                Ven: 8h - 18h <br>
+                Sam: 12h - 16h <br>
+                Dim: 12h - 16h <br>
+              </h4>
+          </div>
+        </div>
+        <div class="col-md-6 text-center text-md-start">
+          <h1>
+            <div class="display-1">Notre mission</div>
+          </h1>
+          <p class="my-4">Chez Réparo, nous avons a coeur les instruments de musique, ces merveilles qui permettent de créer des chefs-d'oeuvres, en plus d'en être elles-mêmes. C'est pourquoi nous nous engageons à vous fournir le meilleur service d'entretien et de réparation pour vos instruments.</p>
+          <span class="tt" data-bs-placement="bottom" title="Réparation d'une guitare">
+            <img src="/assets/Guitar-Repair.jpg" class="img-fluid" alt="guitare">
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services offerts -->
+  <section id="services" class="bg-light mt-5">
+    <div class="container-lg">
+      <div class="text-center">
+        <h2>Services offerts</h2>
+        <p class="h5">Trouvez le service qui vous intéresse selon votre instrument</p>
+      </div>
+
+      <table class="table bg-white shadow">
+        <thead>
+          <tr class="text-center">
+            <th scope="col" style="width: 25%">Instruments</th>
+            <th scope="col" style="width: 25%">Service 1</th>
+            <th scope="col" style="width: 25%">Service 2</th>
+            <th scope="col" style="width: 25%">Service 3</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="align-middle">
+            <th scope="row">
+              <span class="tt" data-bs-placement="bottom" title="Guitares et basses">
+                <img src="/assets/Guitar-Bass.jpg" class="img-fluid" alt="Guitares et basses">
+              </span>
+            </th>
+            <td class="text-center"><b>Entretien général - 100 $</b>
+              <p class="text-start">Cette option inclut le changement des cordes, le polissage des frettes, l'ajustement de la tige de serrage, de l'intonation... Bref, votre instrument en ressortira comme neuf!</p>
+            </td>
+            <td class="text-center"><b>Remplacement d'une pièce - 80 $</b>
+              <p class="text-start">Cette option est idéale pour ceux qui possèdent un instrument brisé ou qui cherchent simplement à le personnaliser à leur goût.</p>
+            </td>
+            <td class="text-center"><b>Leçons de guitare - 50 $</b>
+              <p class="text-start">Obtenez des leçons de nos experts dévoués qui vous permettront d'améliorer vos compétences de musicien.</p>
+            </td>
+          </tr>
+          <tr class="align-middle">
+            <th scope="row">
+              <span class="tt" data-bs-placement="bottom" title="Violons">
+                <img src="/assets/New-Violin.png" class="img-fluid" alt="Violons">
+              </span>
+            </th>
+            <td class="text-center"><b>Réglage de sonorité - 80 $</b>
+              <p class="text-start">Vous violon ne sonne pas comme vous le souhaitez? Cette option permet à un de nos experts de régler le timbre, la projection, et la facilité de jeu de votre instrument de façon personnalisée!</p>
+            </td>
+            <td class="text-center"><b>Restauration - 50 $</b>
+              <p class="text-start">La restauration a pour but de préserver les qualités acoustiques et esthétiques de votre instrument. Cela inclut un nettoyage et des réparations mineures.</p>
+            </td>
+            <td class="text-center"><b>Réparation - 80 $</b>
+              <p class="text-start">Ce service est parfait pour vous si votre instrument a été endommagé sévèrement. Il couvre la réparation des fractures, le décollement des bords, le remplacement d'une pièce...</p>
+            </td>
+          </tr>
+          <tr class="align-middle">
+            <th scope="row">
+              <span class="tt" data-bs-placement="bottom" title="Cuivres">
+                <img src="/assets/Cuivre.png" class="img-fluid" alt="Cuivres">
+              </span>
+            </th>
+            <td class="text-center"><b>Ajustements - 100 $</b>
+              <p class="text-start">Cette option a pour but de s'occuper de l'entretien général de votre instrument de la famille des cuivres. Du nettoyage interne, au graissage des pompes, en passant par le renouvellement des ressorts, tout est inclut!</p>
+            </td>
+            <td class="text-center"><b>Débosselage - 80 $</b>
+              <p class="text-start">Les accidents arrivent si vite... Nous nous occuperons d'aplatir les bosses et d'éliminer les rayures sur votre instrument afin qu'il retrouve sa splendeur!</p>
+            </td>
+            <td class="text-center"><b>Personnalisation - 100 $</b>
+              <p class="text-start">Vous souhaitez ressortir du lot? Ce service vous permet de plaquer votre instrument or ou argent, en plus de pouvoir y engraver le motif de votre choix.</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Experts -->
+  <section id="experts">
+    <div class="container-md">
+      <div class="text-center">
+        <h2>Nos experts</h2>
+        <p class="h5">Apprenez à connaître notre personnel dévoué ainsi que leur spécialités</p>
+      </div>
+
+      <table class="table bg-light shadow">
+        <thead>
+          <tr class="text-center">
+            <th scope="col" style="width: 28%">Experts</th>
+            <th scope="col" style="width: 28%">À propos</th>
+            <th scope="col" style="width: 28%">Spécialités</th>
+            <th scope="col" style="width: 16%">Réserver</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="align-middle">
+              <span class="tt" data-bs-placement="bottom" title="Albert">
+                <img src="/assets/Luthier-A2.jpeg" class="img-fluid" alt="Albert">
+              </span>
+            </td>
+            <td class="text-center align-middle"><b>Albert</b>
+              <p class="text-start">Ayant plus de 25 ans d'expérience en tant que luthier, Albert une personne minutieuse, délicate et passionnée. Son travail est toujours fait de manière rigoureuse et professionnelle. Il est l'expert des guitares et des basses, mais il peut aussi s'occuper des différents types de violons.</p>
+            </td>
+            <td class="text-center align-middle">
+              <ul class="text-start" style="display:inline-block">
+                <li><b>Entretien général</b></li>
+                <li><b>Remplacement d'une pièce</b></li>
+                <li><b>Leçons de guitare</b></li>
+              </ul>
+            </td>
+            <td class="text-center align-middle">
+              <a class="btn btn-success" href="#reservation">Prendre rendez-vous</a>
+            </td>
+          </tr>
+          <tr>
+            <td class="align-middle">
+              <span class="tt" data-bs-placement="bottom" title="Leah">
+                <img src="/assets/Luthier-B2.jpeg" class="img-fluid" alt="Leah">
+              </span>
+            </td>
+            <td class="text-center align-middle"><b>Leah</b>
+              <p class="text-start">Leah est notre experte des violons. Étant elle-même violoniste, Leah s'intéresse depuis une dizaine d'année à l'entretien de ces instruments et elle maîtrise aujourd'hui chaque aspect de cette activité.</p>
+            </td>
+            <td class="text-center align-middle">
+              <ul class="text-start" style="display:inline-block">
+                <li><b>Réglage de sonorité</b></li>
+                <li><b>Restauration</b></li>
+                <li><b>Réparation</b></li>
+              </ul>
+            </td>
+            <td class="text-center align-middle">
+              <a class="btn btn-success" href="#reservation">Prendre rendez-vous</a>
+            </td>
+          </tr>
+          <tr>
+            <td class="align-middle">
+              <span class="tt" data-bs-placement="bottom" title="Sophie">
+                <img src="/assets/Luthier-C2.jpeg" class="img-fluid" alt="Sophie">
+              </span>
+            </td>
+            <td class="text-center align-middle"><b>Sophie</b>
+              <p class="text-start">Notre plus jeune employée se spécialise dans la réparation des cuivres. Ne vous laissez pas berner par son âge, Sophie connait ces instruments mieux que personne! Son travail efficace et son attention aux détails sauront vous en convaincre.</p>
+            </td>
+            <td class="text-center align-middle">
+              <ul class="text-start" style="display:inline-block">
+                <li><b>Ajustements</b></li>
+                <li><b>Débosselage</b></li>
+                <li><b>Personnalisation</b></li>
+              </ul>
+            </td>
+            <td class="text-center align-middle">
+              <a class="btn btn-success" href="#reservation">Prendre rendez-vous</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Réservation -->
+  <section id="reservation" class="bg-light">
+    <div class="container-lg">
+      
+      <div class="text-center">
+        <h2>Prendre un rendez-vous</h2>
+        <p class="h5">Veuillez remplir les cases suivantes afin de pouvoir confirmer votre réservation</p>
+      </div>
+      <div class="row justify-content-center my-5">
+        <div class="col-lg-6">
+          
+          <form>
+            <label for="expert" class="form-label">Choisir un expert:</label>
+            <div class="mb-4 input-group">
+              <span class="input-group-text">
+                <i class="bi bi-file-person-fill text-secondary"></i>
+              </span>
+              <select class="form-select" id="expert">
+                <option value="albert" selected>Albert</option>
+                <option value="leah">Leah</option>
+                <option value="sophie">Sophie</option>
+              </select>
+            </div>
+            <label for="service" class="form-label">Choisir un service:</label>
+            <div class="mb-4 input-group">
+              <span class="input-group-text">
+                <i class="bi bi-wrench text-secondary"></i>
+              </span>
+              <select class="form-select" id="service">
+                <option value="service1" selected>Entretien général</option>
+                <option value="service2">Remplacement d'une pièce</option>
+                <option value="service3">Leçons de guitare</option>
+                <option value="service4">Réglage de sonorité</option>
+                <option value="service5">Restauration</option>
+                <option value="service6">Réparation</option>
+                <option value="service7">Ajustements</option>
+                <option value="service8">Débosselage</option>
+                <option value="service9">Personnalisation</option>
+              </select>
+            </div>
+            <label for="date" class="form-label">Choisir une date:</label>
+            <div class="mb-4 input-group">
+              <span class="input-group-text">
+                <i class="bi bi-calendar-event text-secondary"></i>
+              </span>
+              <select class="form-select" id="date">
+                <option value="jour1" selected>1</option>
+                <option value="jour2">2</option>
+                <option value="jour3">3</option>
+                <option value="jour4">4</option>
+                <option value="jour5">5</option>
+                <option value="jour6">6</option>
+                <option value="jour7">7</option>
+                <option value="jour8">8</option>
+                <option value="jour9">9</option>
+                <option value="jour10">10</option>
+                <option value="jour11">11</option>
+                <option value="jour12">12</option>
+                <option value="jour13">13</option>
+                <option value="jour14">14</option>
+                <option value="jour15">15</option>
+                <option value="jour16">16</option>
+                <option value="jour17">17</option>
+                <option value="jour18">18</option>
+                <option value="jour19">19</option>
+                <option value="jour20">20</option>
+                <option value="jour21">21</option>
+                <option value="jour22">22</option>
+                <option value="jour23">23</option>
+                <option value="jour24">24</option>
+                <option value="jour25">25</option>
+                <option value="jour26">26</option>
+                <option value="jour27">27</option>
+                <option value="jour28">28</option>
+                <option value="jour29">29</option>
+                <option value="jour30">30</option>
+                <option value="jour31">31</option>
+              </select>
+              <select class="form-select" id="mois">
+                <option value="janvier" selected>Janvier</option>
+                <option value="fevrier">Février</option>
+                <option value="mars">Mars</option>
+                <option value="avril">Avril</option>
+                <option value="mai">Mai</option>
+                <option value="juin">Juin</option>
+                <option value="juillet">Juillet</option>
+                <option value="aout">Août</option>
+                <option value="septembre">Septembre</option>
+                <option value="octobre">Octobre</option>
+                <option value="novembre">Novembre</option>
+                <option value="decembre">Décembre</option>
+              </select>
+              <select class="form-select" id="mois">
+                <option value="2022" selected>2022</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+                <option value="2025">2025</option>
+                <option value="2026">2026</option>
+              </select>
+            </div>
+            <label for="heure" class="form-label">Choisir une heure:</label>
+            <div class="mb-4 input-group">
+              <span class="input-group-text">
+                <i class="bi bi-clock-fill text-secondary"></i>
+              </span>
+              <select class="form-select" id="heure">
+                <option value="8h00" selected>8h00</option>
+                <option value="9h00">9h00</option>
+                <option value="10h00">10h00</option>
+                <option value="11h00">11h00</option>
+                <option value="12h00">12h00</option>
+                <option value="13h00">13h00</option>
+                <option value="14h00">14h00</option>
+                <option value="15h00">15h00</option>
+                <option value="16h00">16h00</option>
+                <option value="17h00">17h00</option>
+              </select>
+            </div>
+            <label for="nom" class="form-label">Votre nom:</label>
+            <div class="mb-4 input-group">
+              <span class="input-group-text">
+                <i class="bi bi-person-fill text-secondary"></i>
+              </span>
+              <input type="text" id="nom" class="form-control"/>
+            </div>
+            <label for="email" class="form-label">Votre adresse courriel:</label>
+            <div class="input-group mb-4">
+              <span class="input-group-text">
+                <i class="bi bi-envelope-fill text-secondary"></i>
+              </span>
+              <input type="text" id="email" class="form-control"/>
+            </div>
+            <div class="mb-4 text-center">
+              <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#reg-modal">Confirmer</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- modal de confirmation -->
+  <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal-title">Confirmation du rendez-vous</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Votre rendez-vous a été enregistré avec succès!</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal" aria-label="Close">OK</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  <script>
+    const tooltips = document.querySelectorAll('.tt')
+    tooltips.forEach(t => {
+      new bootstrap.Tooltip(t)
+    })
+  </script>
+</body>
+</html>
